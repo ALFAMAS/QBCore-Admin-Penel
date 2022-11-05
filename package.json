@@ -1,0 +1,17 @@
+{
+  "name": "qbcore-admin-penel",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "client:build": "npm build",
+    "client": "npm start --prefix frontend",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "ALFAMAS",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {}
+}
